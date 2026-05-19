@@ -863,7 +863,7 @@ int main() {
     al_destroy_bitmap(img_mapa_deserto);
     al_destroy_bitmap(img_block8);
     al_destroy_bitmap(img_cajuina);
-    al_destroy_display(display); al_destroy_timer(timer); al_destroy_event_queue(event_queue);
+    al_destroy_display(display); al_destroy_timer(timer); al_destroy_event_queue(event_queue); 
 
     return 0;
 }
