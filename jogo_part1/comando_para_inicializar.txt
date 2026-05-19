@@ -1,0 +1,16 @@
+Inicialização via LINUX MINT:
+
+Primeiro, devemos instalar o Allegro no computador, para isso, use o comando abaixo:
+===============================================
+sudo apt install liballegro5.2 liballegro5-dev
+===============================================
+
+Após isso, entre na pasta "jogo_part1" e insira o comando a baixo:
+=========================================================================================================================================================
+gcc jogo.c modu_c/*.c -I modu_h -o jogo -lallegro -lallegro_image -lallegro_primitives -lallegro_font -lallegro_ttf -lallegro_audio -lallegro_acodec -lm
+=========================================================================================================================================================
+
+Por último, execute o jogo
+=======
+./jogo
+=======
