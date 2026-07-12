@@ -11,11 +11,11 @@ void desenhar_tela_instrucoes(ALLEGRO_FONT *fonte, float w, float h) {
     int espaco = 25;
       
     al_draw_text(fonte, al_map_rgb(255, 255, 255), w/2, y, ALLEGRO_ALIGN_CENTRE, "MOVIMENTAÇÃO: W, A, S, D ou SETAS");
-    al_draw_text(fonte, al_map_rgb(255, 255, 255), w/2, y + espaco, ALLEGRO_ALIGN_CENTRE, "ATIRAR: Tecla 'P' (Necessário ter munição)");
+    al_draw_text(fonte, al_map_rgb(255, 255, 255), w/2, y + espaco, ALLEGRO_ALIGN_CENTRE, "ATIRAR: Tecla 'espaço' (Necessário ter munição)");
     
     al_draw_text(fonte, al_map_rgb(255, 255, 255), w/2, y + espaco*2, ALLEGRO_ALIGN_CENTRE, "PAUSA / AJUDA: Tecla '*'");
     
-    al_draw_text(fonte, al_map_rgb(255, 255, 255), w/2, y + espaco*3, ALLEGRO_ALIGN_CENTRE, "SAIR: Tecla 'ESC'");
+    al_draw_text(fonte, al_map_rgb(255, 255, 255), w/2, y + espaco*3, ALLEGRO_ALIGN_CENTRE, "SAIR DO JOGO: Tecla 'ESC'");
 
     al_draw_text(fonte, al_map_rgb(100, 200, 255), w/2, y + espaco*5, ALLEGRO_ALIGN_CENTRE, "OBJETIVO:");
     al_draw_text(fonte, al_map_rgb(200, 200, 200), w/2, y + espaco*6, ALLEGRO_ALIGN_CENTRE, "* Colete todos os Cajús e Castanhas para vencer.");
