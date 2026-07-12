@@ -6,7 +6,13 @@ LIBS = -lallegro -lallegro_image -lallegro_primitives -lallegro_font -lallegro_t
 
 SRC = jogo.c modu_c/*.c
 
-TARGET = jogo
+# --- Detecção automática de Sistema Operacional ---
+ifeq ($(OS),Windows_NT)
+    TARGET = jogo.exe
+else
+    TARGET = jogo
+endif
+# --------------------------------------------------
 
 all: $(TARGET)
 
