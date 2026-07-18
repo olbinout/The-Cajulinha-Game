@@ -632,7 +632,7 @@ int main() {
                  
                  if (exibir_aviso_limite) {
                      al_draw_text(fonte, al_map_rgb(255, 50, 50), SCREEN_W/2, SCREEN_H/2 + 80, ALLEGRO_ALIGN_CENTRE, 
-                         "AVISO: Máximo de 11 inimigos ou digite um nome!");
+                         "AVISO: Máximo de 11 inimigos!");
                  }
                  
                  al_draw_text(fonte, al_map_rgb(200, 200, 200), SCREEN_W/2, SCREEN_H/2 + 110, ALLEGRO_ALIGN_CENTRE, "PRESSIONE [ENTER] PARA INICIAR (Normal)");
